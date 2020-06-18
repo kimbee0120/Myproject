@@ -14,3 +14,15 @@ https://code.visualstudio.com/
 - If you click the remote window, you can search your ssh address. <br> ex) username@yourcompanyorschool.server
 - after find it, it will open new window for the ssh remote server.
 - you can add your server to the Remote Explorer. 
+
+## 2. Create virtual Environment 
+- Open Terminal and mkdir to save only your virtual Environment projects and cd to Environments dir. 
+>$ mkdir Environments 
+>$ cd Environments
+- install Virtual Environment
+>$ pip install virtualenv 
+- make first virtual Environment
+>$ virtualenv project1
+- activate the virtual Environment project1 
+>$ source project1/bin/activate 
+- now you are in new python environment
