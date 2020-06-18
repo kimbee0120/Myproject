@@ -4,5 +4,7 @@
 - Download Visual Studio Code 
 https://code.visualstudio.com/
 - After download, open Visual Studio Code
-- Click extension on the left side bar
+- Click extension on the left side bar<br>
 ![Screenshot](Image/extension.png)
+- download Remote Development<br>
+![Screenshot](Image/SSH.png)
