@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="top">
+                <div class="nav">
+                    <p class="date">August</p>
+                    <ion-icon name="person" class="user"></ion-icon>
+                </div>
+                <ion-icon name="sunny"></ion-icon>
+                <select name="" id="unit-converter">
+                    <option>Temperature</option>
+                    <option>Currency</option>
+                    <option>Length</option>
+                </select>
+
+                <div class="primary">
+                    <input type="number" id="main-unit">
+                    <select class="main-unit-options reset">
+                        <option>Celsius</option>
+                        <option>Kelvin</option>
+                        <option>Farenheight</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="bottom">
+                <div class="secondary">
+                    <input type="number" id="second-unit">
+                    <select class="second-unit-options reset">
+                        <option>Kelvin</option>
+                        <option>Farenheight</option>
+                        <option>Celsius</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
