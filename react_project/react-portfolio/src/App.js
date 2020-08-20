@@ -26,7 +26,6 @@ class App extends Component{
     fd.append("arr", product_id_list);
     fd.append("name", this.state.name);
      fd.append("jsonfd", JSON.stringify(this.state.jsonfd));
-     //fd.append("blob", blob);
     fd.append('profilepic', this.state.selectedFile, this.state.selectedFile.name);
 
 
